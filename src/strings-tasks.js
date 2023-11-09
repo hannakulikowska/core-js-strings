@@ -6,7 +6,7 @@
  ******************************************************************************************* */
 
 /**
- * Returns the length of the given string.
+ * TASK: Returns the length of the given string.
  *
  * @param {string} value - The input string to calculate the length of.
  * @return {number} - The length of the string.
@@ -27,7 +27,7 @@ function getStringLength(value) {
 }
 
 /**
- * Returns true if the value is a string, otherwise returns false.
+ * TASK: Returns true if the value is a string, otherwise returns false.
  *
  * @param {string} value - The value to check if it's a string.
  * @return {boolean} - True if the value is a string, false otherwise.
@@ -48,7 +48,7 @@ function isString(value) {
 }
 
 /**
- * Returns the result of concatenation of two strings.
+ * TASK: Returns the result of concatenation of two strings.
  *
  * @param {string} value1 - The first string to concatenate.
  * @param {string} value2 - The second string to concatenate.
@@ -64,7 +64,7 @@ function concatenateStrings(value1, value2) {
 }
 
 /**
- * Returns the first character of the given string.
+ * TASK: Returns the first character of the given string.
  *
  * @param {string} value - The input string to extract the first character from.
  * @return {string} - The first character of the string.
@@ -79,7 +79,7 @@ function getFirstChar(value) {
 }
 
 /**
- * Removes leading and trailing whitespace characters from the string.
+ * TASK: Removes leading and trailing whitespace characters from the string.
  *
  * @param {string} value - The input string to remove leading and trailing whitespaces from.
  * @return {string} - The string with leading and trailing whitespaces removed.
@@ -94,7 +94,7 @@ function removeLeadingAndTrailingWhitespaces(value) {
 }
 
 /**
- * Removes only leading whitespace characters from the string.
+ * TASK: Removes only leading whitespace characters from the string.
  *
  * @param {string} value - The input string to remove leading whitespaces from.
  * @return {string} - The string with leading whitespaces removed.
@@ -109,7 +109,7 @@ function removeLeadingWhitespaces(value) {
 }
 
 /**
- * Removes only trailing whitespace characters from the string.
+ * TASK: Removes only trailing whitespace characters from the string.
  *
  * @param {string} value - The input string to remove trailing whitespaces from.
  * @return {string} - The string with trailing whitespaces removed.
@@ -124,7 +124,7 @@ function removeTrailingWhitespaces(value) {
 }
 
 /**
- * Returns a string that is repeated the specified number of times.
+ * TASK: Returns a string that is repeated the specified number of times.
  *
  * @param {string} str - The string to repeat.
  * @param {number} times - The number of times to repeat the string.
@@ -144,7 +144,7 @@ function repeatString(str, times) {
 }
 
 /**
- * Remove the first occurrence of a substring from a string.
+ * TASK: Remove the first occurrence of a substring from a string.
  *
  * @param {string} str - The input string.
  * @param {string} value - The substring to remove from the string.
@@ -164,7 +164,7 @@ function removeFirstOccurrences(str, value) {
 }
 
 /**
- * Remove the last occurrence of a substring from a string.
+ * TASK: Remove the last occurrence of a substring from a string.
  *
  * @param {string} str - The input string.
  * @param {string} value - The substring to remove from the string.
@@ -184,7 +184,7 @@ function removeLastOccurrences(str, value) {
 }
 
 /**
- * Calculate the sum of character codes of the given string.
+ * TASK: Calculate the sum of character codes of the given string.
  *
  * @param {string} str - The input string.
  * @return {number} - The sum of character codes of the string.
@@ -206,7 +206,7 @@ function sumOfCodes(str) {
 }
 
 /**
- * Checks if a string starts with a specific substring.
+ * TASK: Checks if a string starts with a specific substring.
  *
  * @param {string} str - The input string.
  * @param {string} substr - The substring to check.
@@ -221,7 +221,7 @@ function startsWith(str, substr) {
 }
 
 /**
- * Checks if a string ends with a specific substring.
+ * TASK: Checks if a string ends with a specific substring.
  *
  * @param {string} str - The input string.
  * @param {string} substr - The substring to check.
@@ -236,7 +236,7 @@ function endsWith(str, substr) {
 }
 
 /**
- * Returns a time string in the "mm:ss" format.
+ * TASK: Returns a time string in the "mm:ss" format.
  *
  * @param {number} minutes - The number of minutes (non-negative integer).
  * @param {number} seconds - The number of seconds (non-negative integer).
@@ -254,7 +254,7 @@ function formatTime(minutes, seconds) {
 }
 
 /**
- * Returns a string in reverse order.
+ * TASK: Returns a string in reverse order.
  *
  * @param {string} str - The input string.
  * @return {string} - The string in reverse order.
@@ -268,7 +268,7 @@ function reverseString(str) {
 }
 
 /**
- * Returns a string with characters in alphabetical order.
+ * TASK: Returns a string with characters in alphabetical order.
  *
  * @param {string} str - The input string.
  * @return {string} - The string in alphabetical order.
@@ -283,7 +283,7 @@ function orderAlphabetically(str) {
 }
 
 /**
- * Checks if a given string contains a specified substring.
+ * TASK: Checks if a given string contains a specified substring.
  *
  * @param {string} str - The input string to search within.
  * @param {string} substring - The substring to check for in the input string.
@@ -299,7 +299,7 @@ function containsSubstring(str, substring) {
 }
 
 /**
- * Returns the number of vowels in the string.
+ * TASK: Returns the number of vowels in the string.
  * Vowels: 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'.
  *
  * @param {string} str - The input string.
@@ -380,7 +380,7 @@ function reverseWords(str) {
 }
 
 /**
- * Inverts the case of each character in the given string.
+ * TASK: Inverts the case of each character in the given string.
  *
  * @param {string} str - The input string.
  * @returns {string} - The string with the case of each character inverted.
@@ -390,12 +390,22 @@ function reverseWords(str) {
  *   invertCase('JavaScript is Fun') => 'jAVASCRIPT IS fUN'
  *   invertCase('12345') => '12345'
  */
-function invertCase(/* str */) {
-  throw new Error('Not implemented');
+function invertCase(str) {
+  const arr = str.split('');
+
+  for (let i = 0; i < arr.length; i += 1) {
+    const char = arr[i];
+    if (char === char.toUpperCase()) {
+      arr[i] = char.toLowerCase();
+    } else if (char === char.toLowerCase()) {
+      arr[i] = char.toUpperCase();
+    }
+  }
+  return arr.join('');
 }
 
 /**
- * Returns the result of string template and given parameters firstName and lastName.
+ * TASK: Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings
  *
@@ -407,12 +417,12 @@ function invertCase(/* str */) {
  *   getStringFromTemplate('John','Doe') => 'Hello, John Doe!'
  *   getStringFromTemplate('Chuck','Norris') => 'Hello, Chuck Norris!'
  */
-function getStringFromTemplate(/* firstName, lastName */) {
-  throw new Error('Not implemented');
+function getStringFromTemplate(firstName, lastName) {
+  return `Hello, ${firstName} ${lastName}!`;
 }
 
 /**
- * Extracts a name from template string 'Hello, First_Name Last_Name!'.
+ * TASK: Extracts a name from template string 'Hello, First_Name Last_Name!'.
  *
  * @param {string} value - The input value.
  * @return {string} - The name extracted from the template.
@@ -421,12 +431,12 @@ function getStringFromTemplate(/* firstName, lastName */) {
  *   extractNameFromTemplate('Hello, John Doe!') => 'John Doe'
  *   extractNameFromTemplate('Hello, Chuck Norris!') => 'Chuck Norris'
  */
-function extractNameFromTemplate(/* value */) {
-  throw new Error('Not implemented');
+function extractNameFromTemplate(value) {
+  return value.slice(7, -1);
 }
 
 /**
- * Remove the first and last angle brackets from tag string
+ * TASK: Remove the first and last angle brackets from tag string
  *
  * @param {string} str - The input tag.
  * @return {string} - The tag without the first and last angle brackets.
@@ -436,12 +446,12 @@ function extractNameFromTemplate(/* value */) {
  *   unbracketTag('<span>') => 'span'
  *   unbracketTag('<a>') => 'a'
  */
-function unbracketTag(/* str */) {
-  throw new Error('Not implemented');
+function unbracketTag(str) {
+  return str.slice(1, -1);
 }
 
 /**
- * Extracts e-mails from single string with e-mails list delimited by semicolons
+ * TASK: Extracts e-mails from single string with e-mails list delimited by semicolons
  *
  * @param {string} str - The input string.
  * @return {array} - The list of e-mails extracted from the string.
@@ -455,12 +465,12 @@ function unbracketTag(/* str */) {
  *   ],
  *   'info@gmail.com' => ['info@gmail.com']
  */
-function extractEmails(/* str */) {
-  throw new Error('Not implemented');
+function extractEmails(str) {
+  return str.split(';');
 }
 
 /**
- * Encode specified string with ROT13 cipher
+ * TASK: Encode specified string with ROT13 cipher
  * See details:  https://en.wikipedia.org/wiki/ROT13
  *
  * @param {string} str - The input string.
@@ -475,12 +485,23 @@ function extractEmails(/* str */) {
  *    => 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
  *
  */
-function encodeToRot13(/* str */) {
-  throw new Error('Not implemented');
+function encodeToRot13(str) {
+  function rot13Replace(chr) {
+    const startUpper = 'A'.charCodeAt(0);
+    const startLower = 'a'.charCodeAt(0);
+
+    //* case definition
+    const start = chr <= 'Z' ? startUpper : startLower;
+    const newCharCode = ((chr.charCodeAt(0) - start + 13) % 26) + start;
+    return String.fromCharCode(newCharCode);
+  }
+
+  //* replace all chars in the string with rot13Replace function
+  return str.replace(/[a-zA-Z]/g, rot13Replace);
 }
 
 /**
- * Returns playid card id.
+ * TASK: Returns playid card id.
  *
  * Playing cards inittial deck inclides the cards in the following order:
  *
@@ -503,8 +524,18 @@ function encodeToRot13(/* str */) {
  *   'Q♠' => 50
  *   'K♠' => 51
  */
-function getCardId(/* value */) {
-  throw new Error('Not implemented');
+function getCardId(value) {
+  const suits = ['♣', '♦', '♥', '♠'];
+  // prettier-ignore
+  const ranks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+
+  const rank = value.slice(0, -1);
+  const suit = value.slice(-1);
+
+  const rankId = ranks.indexOf(rank);
+  const suitId = suits.indexOf(suit);
+
+  return suitId * 13 + rankId;
 }
 
 module.exports = {
